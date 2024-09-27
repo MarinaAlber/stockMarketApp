@@ -131,7 +131,12 @@ export const StocksList: FC = () => {
 };
 
 const styles = StyleSheet.create({
-  listContainer: {padding: BaseSpace.md as number, gap: BaseSpace.md, flex: 1},
+  listContainer: {
+    padding: BaseSpace.md as number,
+    gap: BaseSpace.md,
+    flex: 1,
+    backgroundColor: DarkTheme.primaryColor,
+  },
   searchInput: {
     borderRadius: BorderRadius.xl,
     borderColor: DarkTheme.primaryColor_200,
