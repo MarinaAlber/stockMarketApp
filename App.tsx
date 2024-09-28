@@ -19,7 +19,7 @@ function App(): React.JSX.Element {
   useEffect(() => {
     setTimeout(() => {
       SplashScreen.hide();
-    }, 1500);
+    }, 3000);
   }, []);
 
   return (
@@ -48,10 +48,10 @@ const styles = StyleSheet.create({
     alignContent: 'center',
     justifyContent: 'flex-start',
   },
-  logo:{
-    height:25,
-    width:'25%'
-  }
+  logo: {
+    height: 25,
+    width: '25%',
+  },
 });
 
 export default App;
